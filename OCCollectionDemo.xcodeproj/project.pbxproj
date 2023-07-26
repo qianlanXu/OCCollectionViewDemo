@@ -26,6 +26,7 @@
 		04E35CEB2A52B29D00E67D76 /* CycleCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CEA2A52B29D00E67D76 /* CycleCollectionView.m */; };
 		04E35CEE2A52C60300E67D76 /* CycleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CED2A52C60300E67D76 /* CycleCell.m */; };
 		04E35CF12A5810D700E67D76 /* CycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CF02A5810D700E67D76 /* CycleViewController.m */; };
+		04E35D202A710F3800E67D76 /* FlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E35D1F2A710F3800E67D76 /* FlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,8 @@
 		04E35CED2A52C60300E67D76 /* CycleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleCell.m; sourceTree = "<group>"; };
 		04E35CEF2A5810D700E67D76 /* CycleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleViewController.h; sourceTree = "<group>"; };
 		04E35CF02A5810D700E67D76 /* CycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleViewController.m; sourceTree = "<group>"; };
+		04E35D1E2A710F3800E67D76 /* FlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowLayout.h; sourceTree = "<group>"; };
+		04E35D1F2A710F3800E67D76 /* FlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		04D769892A08ECEB007B0CA2 /* OCCollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04E35D1D2A710F0A00E67D76 /* FlowLayout */,
 				04E35CE82A52686800E67D76 /* Cycle */,
 				04D769CC2A247FD7007B0CA2 /* Circle */,
 				04D769B22A0DD935007B0CA2 /* CustomLayout */,
@@ -166,6 +170,15 @@
 				04E35CF02A5810D700E67D76 /* CycleViewController.m */,
 			);
 			path = Cycle;
+			sourceTree = "<group>";
+		};
+		04E35D1D2A710F0A00E67D76 /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				04E35D1E2A710F3800E67D76 /* FlowLayout.h */,
+				04E35D1F2A710F3800E67D76 /* FlowLayout.m */,
+			);
+			path = FlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +257,7 @@
 				04D769C52A1A2E42007B0CA2 /* SimpleDecorationView.m in Sources */,
 				04D7699D2A08ECED007B0CA2 /* main.m in Sources */,
 				04D769CF2A247FFF007B0CA2 /* CircleViewController.m in Sources */,
+				04E35D202A710F3800E67D76 /* FlowLayout.m in Sources */,
 				04D769C82A1B5BF1007B0CA2 /* PictureLayout.m in Sources */,
 				04D769C22A1768E2007B0CA2 /* SimpleCollectionFlowLayout.m in Sources */,
 				04D769BE2A0E2027007B0CA2 /* NormalHeaderView.m in Sources */,

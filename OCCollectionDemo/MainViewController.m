@@ -62,6 +62,14 @@
     [cycle setTitle:@"Cycle" forState:UIControlStateNormal];
     [cycle addTarget:self action:@selector(onCycle:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:cycle];
+    
+    UIButton *flow = [UIButton buttonWithType:UIButtonTypeCustom];
+    flow.frame = CGRectMake(0, 0, 100, 100);
+    flow.center = CGPointMake(200, 700);
+    flow.backgroundColor = UIColor.orangeColor;
+    [flow setTitle:@"Flow" forState:UIControlStateNormal];
+    [flow addTarget:self action:@selector(onFlow:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:flow];
 }
 
 - (void)onNormal:(UIButton *)button {
@@ -89,6 +97,12 @@
 
 - (void)onCycle:(UIButton *)button {
     CycleViewController *viewController = [[CycleViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (void)onFlow:(UIButton *)button {
+    NormalViewController *viewController = [[NormalViewController alloc] init];
+    viewController.layoutType = Flow;
     [self.navigationController pushViewController:viewController animated:YES];
 }
 @end

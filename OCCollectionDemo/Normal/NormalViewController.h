@@ -13,7 +13,8 @@ typedef NS_ENUM(NSUInteger, LayoutTypes) {
     NormalLayout,
     CustomLayout,
     ShowPictureLayout,
-    CircleLayout
+    CircleLayout,
+    Flow
 };
 
 @interface NormalViewController : UIViewController
