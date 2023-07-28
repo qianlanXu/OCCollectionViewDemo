@@ -27,6 +27,7 @@
 		04E35CEE2A52C60300E67D76 /* CycleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CED2A52C60300E67D76 /* CycleCell.m */; };
 		04E35CF12A5810D700E67D76 /* CycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E35CF02A5810D700E67D76 /* CycleViewController.m */; };
 		04E35D202A710F3800E67D76 /* FlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E35D1F2A710F3800E67D76 /* FlowLayout.m */; };
+		04E35D232A73A82F00E67D76 /* MyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E35D222A73A82F00E67D76 /* MyFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		04E35CF02A5810D700E67D76 /* CycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleViewController.m; sourceTree = "<group>"; };
 		04E35D1E2A710F3800E67D76 /* FlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowLayout.h; sourceTree = "<group>"; };
 		04E35D1F2A710F3800E67D76 /* FlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowLayout.m; sourceTree = "<group>"; };
+		04E35D212A73A82F00E67D76 /* MyFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFlowLayout.h; sourceTree = "<group>"; };
+		04E35D222A73A82F00E67D76 /* MyFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 			children = (
 				04E35D1E2A710F3800E67D76 /* FlowLayout.h */,
 				04E35D1F2A710F3800E67D76 /* FlowLayout.m */,
+				04E35D212A73A82F00E67D76 /* MyFlowLayout.h */,
+				04E35D222A73A82F00E67D76 /* MyFlowLayout.m */,
 			);
 			path = FlowLayout;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				04E35CF12A5810D700E67D76 /* CycleViewController.m in Sources */,
 				04D769A52A08F15D007B0CA2 /* MainViewController.m in Sources */,
 				04D7698F2A08ECEB007B0CA2 /* SceneDelegate.m in Sources */,
+				04E35D232A73A82F00E67D76 /* MyFlowLayout.m in Sources */,
 				04D769AB2A0DD8CC007B0CA2 /* NormalViewController.m in Sources */,
 				04E35CEE2A52C60300E67D76 /* CycleCell.m in Sources */,
 			);

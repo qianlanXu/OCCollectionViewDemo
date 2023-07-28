@@ -12,6 +12,7 @@
 #import "PictureLayout.h"
 #import "CustomCircleFlowLayout.h"
 #import "FlowLayout.h"
+#import "MyFlowLayout.h"
 
 @interface NormalViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
 
@@ -86,7 +87,7 @@
             layout = [[CustomCircleFlowLayout alloc] init];
             break;
         case Flow:
-            layout = [[FlowLayout alloc] init];
+            layout = [[MyFlowLayout alloc] init];
             break;;
         default:
             break;
